@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 6f9e0f6fe1b5d2b47817b0d0c9058b05
+timeCreated: 1502219219
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 117027
+  packageName: HMS Ontario - 4k PBR Ship
+  packageVersion: 1.1
+  assetPath: Assets/SaltySeaDogs/Scripts/Sail.cs
+  uploadId: 292372

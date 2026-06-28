@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0d82af447c139534dafddd54830e7a28
+timeCreated: 1524161501
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 117027
+  packageName: HMS Ontario - 4k PBR Ship
+  packageVersion: 1.1
+  assetPath: Assets/SaltySeaDogs/Models/HMS Ontario/Materials/Sail.mat
+  uploadId: 292372

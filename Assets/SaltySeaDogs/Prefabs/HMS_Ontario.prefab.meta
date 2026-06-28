@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d13eb47463b7b674ba780742b3f5fab3
+timeCreated: 1524185744
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 117027
+  packageName: HMS Ontario - 4k PBR Ship
+  packageVersion: 1.1
+  assetPath: Assets/SaltySeaDogs/Prefabs/HMS_Ontario.prefab
+  uploadId: 292372

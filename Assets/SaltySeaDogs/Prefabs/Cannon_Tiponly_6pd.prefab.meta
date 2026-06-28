@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1f3c87a2c4473bb45813e99a3c37107b
+timeCreated: 1524185737
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 117027
+  packageName: HMS Ontario - 4k PBR Ship
+  packageVersion: 1.1
+  assetPath: Assets/SaltySeaDogs/Prefabs/Cannon_Tiponly_6pd.prefab
+  uploadId: 292372

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8b28e381f240c8c448ce238e9164191e
+timeCreated: 1512943195
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 117027
+  packageName: HMS Ontario - 4k PBR Ship
+  packageVersion: 1.1
+  assetPath: Assets/SaltySeaDogs/Shaders/2 Sided Cloth.shader
+  uploadId: 292372

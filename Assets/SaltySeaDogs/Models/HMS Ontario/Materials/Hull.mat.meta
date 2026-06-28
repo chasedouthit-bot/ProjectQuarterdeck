@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e4605294428c33b498baa0ba88714373
+timeCreated: 1524161444
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 117027
+  packageName: HMS Ontario - 4k PBR Ship
+  packageVersion: 1.1
+  assetPath: Assets/SaltySeaDogs/Models/HMS Ontario/Materials/Hull.mat
+  uploadId: 292372

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6e05532f1b08b144fac7b531eef845e2
+timeCreated: 1523898824
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 117027
+  packageName: HMS Ontario - 4k PBR Ship
+  packageVersion: 1.1
+  assetPath: Assets/SaltySeaDogs/Models/HMS Ontario/Materials/Rope.mat
+  uploadId: 292372

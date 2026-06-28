@@ -1,0 +1,989 @@
+fileFormatVersion: 2
+guid: 7cbb129e93b8d484c9a2b1a55d4645e4
+timeCreated: 1524150130
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: _Deck & Hull Fittings_Wood.011
+    100002: Aft beam Top
+    100004: Bowsprit Base
+    100006: Bowsprit Sail
+    100008: Bowsprit.001
+    100010: Channel Bow
+    100012: Channel Knee.005
+    100014: Fore Lower Yard
+    100016: Fore Main Sail
+    100018: Fore Mast
+    100020: Fore Mast Base
+    100022: Fore Mast Base 2.017
+    100024: Fore Mast.003
+    100026: Fore Mast.004
+    100028: Fore Mast.005
+    100030: Fore Royal Sail
+    100032: Fore Top Galant Sail
+    100034: Fore Topgallant Yard
+    100036: Fore Topsail Yard
+    100038: Furled Bowsprit Sail
+    100040: Furled Fore Main Sail
+    100042: Furled Fore Royal Sail
+    100044: Furled Fore Top Gallant Sail
+    100046: Furled Gaff
+    100048: Furled Jib.001
+    100050: Furled Jib.002
+    100052: Furled Main Royal Sail
+    100054: Furled Main Sail
+    100056: Furled Main Top Gallant Sail
+    100058: Gaff Sail
+    100060: //RootNode
+    100062: Hull
+    100064: Hull Beam Outside.001
+    100066: Hull Buoyancy Mesh
+    100068: Jib 2 Sail
+    100070: Jib Sail 1
+    100072: Main Lower Yard
+    100074: Main Main Sail
+    100076: Main Mast
+    100078: Main Mast Base
+    100080: Main Mast.003
+    100082: Main Mast.004
+    100084: Main Mast.006
+    100086: Main Royal Sail
+    100088: Main Top Galant Sail
+    100090: Main Topgallant Yard
+    100092: Main Topsail Yard
+    100094: Mast bracket
+    100096: Pivot Joint.000
+    100098: Pivot Joint.002
+    100100: Pivot Joint.009
+    100102: Pivot Joint.010
+    100104: Pivot Joint.012
+    100106: Pivot Joint.014
+    100108: Pivot Joint.016
+    100110: Pivot Joint.017
+    100112: Rudder
+    100114: Spritsail Yard
+    100116: Standing Rigging
+    100118: Standing Rigging Plank
+    100120: Standing Rigging Plank.001
+    100122: Standing Rigging.001
+    100124: Standing Rigging.002
+    100126: Standing Rigging.014
+    100128: Standing Rigging.015
+    100130: Standing Rigging.016
+    100132: Standing_Rigging_Fore Mast Stays.001
+    100134: Standing_Rigging_Main Mast Stays.001
+    100136: Standing_Rigging_Main Mast.001
+    100138: Stern Gallery
+    100140: Stern Gallery Windows
+    100142: Stern Gallery Windows.001
+    100144: Stern Gallery Windows.002
+    100146: Binnacle_Loc
+    100148: Cannon Locators
+    100150: Cannon_Loc.001
+    100152: Cannon_Loc.002
+    100154: Cannon_Loc.003
+    100156: Cannon_Loc.004
+    100158: Cannon_Loc.005
+    100160: Cannon_Loc.006
+    100162: Cannon_Loc.007
+    100164: Cannon_Loc.008
+    100166: Cannon_Loc.009
+    100168: Cannon_Loc.010
+    100170: Cannon_Loc.017
+    100172: Cannon_Loc.018
+    100174: Cannon_Loc.019
+    100176: Cannon_Loc.020
+    100178: Cannon_Loc.021
+    100180: Cannon_Loc.022
+    100182: Cannon_Loc.023
+    100184: Cannon_Loc.024
+    100186: Cannon_Tiponly_Loc.011
+    100188: Cannon_Tiponly_Loc.012
+    100190: Cannon_Tiponly_Loc.013
+    100192: Cannon_Tiponly_Loc.014
+    100194: Cannon_Tiponly_Loc.015
+    100196: Cannon_Tiponly_Loc.016
+    100198: Hull Locators
+    100200: Loose Standing Rigging
+    100202: Masts, Yards & Sails
+    100204: Rudder Pivot
+    100206: Ship Bell_Loc
+    100208: Stern Gallery_Loc
+    100210: Fore Course  Yard
+    100212: Fore Course Pivot
+    100214: Fore Course Sail
+    100216: Fore Main Mast
+    100218: Fore Top Mast
+    100220: Fore Top Shrouds
+    100222: Fore Topgallant Mast
+    100224: Fore Topgallant Pivot
+    100226: Fore Topgallant Sail
+    100228: Fore Topsail Pivot
+    100230: Furled Fore Course Sail
+    100232: Furled Fore Topgallant  Sail
+    100234: Bowsprit
+    100236: Fore Stay
+    100238: Fore Topgallant Stay
+    100240: Fore Topmnast Stay
+    100242: Furled Gaff Sail
+    100244: Furled Main Course Sail
+    100246: Furled Main Top Sail
+    100248: Furled Main Topgallant Sail
+    100250: Gaff
+    100252: Gaff Pivot
+    100254: Main Course Sail
+    100256: Main Course Yard
+    100258: Main Course Yard Pivot
+    100260: Main Royal Stay
+    100262: Main Stay
+    100264: Main Top Mast
+    100266: Main Top Mast Shrouds
+    100268: Main Top Sail
+    100270: Main Top Yard
+    100272: Main Top Yard Pivot
+    100274: Main Topgallant Mast
+    100276: Main Topgallant Sail
+    100278: Main Topgallant Stay
+    100280: Main Topgallant Yard Pivot
+    100282: Main Topmast Stay
+    100284: Mizzen Mast
+    100286: Outer Jib Stay
+    100288: Spritsail Yard Pivot
+    100290: Channel & Knees
+    100292: Deck & Hull Fittings
+    100294: Hull Beam Outside
+    100296: Line_ST1
+    100298: LineB_STYP_ST1
+    100300: LineB_STYS_ST1
+    100302: LineS_STSP
+    100304: LineS_STSS
+    100306: Line_FT1P
+    100308: Line_FT1S
+    100310: LineB_STYP_ST1_FT1P
+    100312: LineB_STYS_ST1_FT1S
+    100314: Line_H1P
+    100316: Line_H1S
+    100318: LineS_STSP_H1P
+    100320: LineS_STSS_H1S
+    100322: LineB_STYP_FT1P
+    100324: LineB_STYS_FT1S
+    100326: LineL_ST1_STYP_STYS
+    100328: LineL_ST2_STYP_STYS
+    100330: LineL_ST3_STYP_STYS
+    100332: Line_H2P
+    100334: Line_H2S
+    100336: Line_H3S
+    100338: Line_H3S.001
+    100340: LineS_SJI_H1S_H1P
+    100342: LineS_SJO_H1S_H1P
+    100344: Line_H3P
+    100346: Line_H4P
+    100348: Line_H4S
+    100350: Line_H5P
+    100352: Line_H5S
+    100354: Line_H6P
+    100356: Line_H6S
+    100358: LineS_STSP_H3P
+    100360: LineS_STSS_H3S
+    100362: LineS_FCSP_H4P_H6P
+    100364: LineS_FCSS_H4S_H6S
+    100366: Line_FS1
+    100368: Line_MT1P
+    100370: Line_MT1S
+    100372: LineB_FCYP_FS1_MT1P
+    100374: LineB_FCYS_FS1_MT1S
+    100376: LineL_FT2_FCYP_FCYS
+    100378: LineL_FT3_FCYP_FCYS
+    100380: Line_8P
+    100382: Line_8S
+    100384: Line_9C_GS
+    100386: Line_FGSP_FTYP
+    100388: Line_FGSS_FTYS
+    100390: Line_FGYP_M2C
+    100392: Line_FGYS_M2C
+    100394: Line_FT4C
+    100396: Line_FT4P
+    100398: Line_FT4S
+    100400: Line_FTSP_FCYP
+    100402: Line_FTSS_FCYS
+    100404: Line_H7P
+    100406: Line_H7S
+    100408: Line_M1
+    100410: Line_M2C
+    100412: Line_MGSP_MTYP
+    100414: Line_MGSS_MTYS
+    100416: Line_MT1C
+    100418: Line_MTSP_MCYP
+    100420: Line_MTSS_MCYS
+    100422: LineB_FCYP_FT4P
+    100424: LineB_FCYS_FT4S
+    100426: LineB_FTYP_M1C
+    100428: LineB_FTYS_M1C
+    100430: LineB_G2_H8S_H8P
+    100432: LineB_MGYP_FT4
+    100434: LineB_MGYS_FT4
+    100436: LineB_MTYP_FT4C
+    100438: LineB_MTYS_FT4C
+    100440: LineL_FT4_FTYP_FTYS
+    100442: LineL_FT5_FGYP_FGYS
+    100444: LineL_M3C_MTYP_MTYS
+    100446: LineL_M4C_MGYS_MGYP
+    100448: LineL_MT2_MCYP_MCYS
+    100450: LineL_MT3_MCYP_MCYS
+    100452: LineS_GS_M1
+    100454: LineS_MCSP_H5P_H7P
+    100456: LineS_MCSS_H5S_H7S
+    100458: LineB_FTYP_MT1C
+    100460: LineB_FTYS_MT1C
+    100462: LineB_MCYP_FT4P
+    100464: LineB_MCYS_FT4S
+    100466: Line_H8P
+    100468: Line_H8S
+    100470: Fore Top Sail
+    100472: Furled Fore Top Sail
+    100474: Fore Topmast Stay
+    100476: Furled Inner Jib Sail
+    100478: Furled Outer Jib Sail
+    100480: Inner Jib Sail
+    100482: Outer Jib Sail
+    100484: Cannon_Bow_01
+    100486: Cannon_Bow_02
+    100488: Cannon_Port_01
+    100490: Cannon_Port_02
+    100492: Cannon_Port_03
+    100494: Cannon_Port_04
+    100496: Cannon_Port_05
+    100498: Cannon_Port_08
+    100500: Cannon_Port_10
+    100502: Cannon_Stbd_01
+    100504: Cannon_Stbd_02
+    100506: Cannon_Stbd_03
+    100508: Cannon_Stbd_04
+    100510: Cannon_Stbd_05
+    100512: Cannon_Stbd_08
+    100514: Cannon_Stbd_10
+    100516: Cannon_Stern_01
+    100518: Cannon_Stern_02
+    100520: CannonTip_Port_06_
+    100522: CannonTip_Port_07
+    100524: CannonTip_Port_09
+    100526: CannonTip_Stbd_06
+    100528: CannonTip_Stbd_07
+    100530: CannonTip_Stbd_09
+    100532: CannonTip_Port_06
+    400000: _Deck & Hull Fittings_Wood.011
+    400002: Aft beam Top
+    400004: Bowsprit Base
+    400006: Bowsprit Sail
+    400008: Bowsprit.001
+    400010: Channel Bow
+    400012: Channel Knee.005
+    400014: Fore Lower Yard
+    400016: Fore Main Sail
+    400018: Fore Mast
+    400020: Fore Mast Base
+    400022: Fore Mast Base 2.017
+    400024: Fore Mast.003
+    400026: Fore Mast.004
+    400028: Fore Mast.005
+    400030: Fore Royal Sail
+    400032: Fore Top Galant Sail
+    400034: Fore Topgallant Yard
+    400036: Fore Topsail Yard
+    400038: Furled Bowsprit Sail
+    400040: Furled Fore Main Sail
+    400042: Furled Fore Royal Sail
+    400044: Furled Fore Top Gallant Sail
+    400046: Furled Gaff
+    400048: Furled Jib.001
+    400050: Furled Jib.002
+    400052: Furled Main Royal Sail
+    400054: Furled Main Sail
+    400056: Furled Main Top Gallant Sail
+    400058: Gaff Sail
+    400060: //RootNode
+    400062: Hull
+    400064: Hull Beam Outside.001
+    400066: Hull Buoyancy Mesh
+    400068: Jib 2 Sail
+    400070: Jib Sail 1
+    400072: Main Lower Yard
+    400074: Main Main Sail
+    400076: Main Mast
+    400078: Main Mast Base
+    400080: Main Mast.003
+    400082: Main Mast.004
+    400084: Main Mast.006
+    400086: Main Royal Sail
+    400088: Main Top Galant Sail
+    400090: Main Topgallant Yard
+    400092: Main Topsail Yard
+    400094: Mast bracket
+    400096: Pivot Joint.000
+    400098: Pivot Joint.002
+    400100: Pivot Joint.009
+    400102: Pivot Joint.010
+    400104: Pivot Joint.012
+    400106: Pivot Joint.014
+    400108: Pivot Joint.016
+    400110: Pivot Joint.017
+    400112: Rudder
+    400114: Spritsail Yard
+    400116: Standing Rigging
+    400118: Standing Rigging Plank
+    400120: Standing Rigging Plank.001
+    400122: Standing Rigging.001
+    400124: Standing Rigging.002
+    400126: Standing Rigging.014
+    400128: Standing Rigging.015
+    400130: Standing Rigging.016
+    400132: Standing_Rigging_Fore Mast Stays.001
+    400134: Standing_Rigging_Main Mast Stays.001
+    400136: Standing_Rigging_Main Mast.001
+    400138: Stern Gallery
+    400140: Stern Gallery Windows
+    400142: Stern Gallery Windows.001
+    400144: Stern Gallery Windows.002
+    400146: Binnacle_Loc
+    400148: Cannon Locators
+    400150: Cannon_Loc.001
+    400152: Cannon_Loc.002
+    400154: Cannon_Loc.003
+    400156: Cannon_Loc.004
+    400158: Cannon_Loc.005
+    400160: Cannon_Loc.006
+    400162: Cannon_Loc.007
+    400164: Cannon_Loc.008
+    400166: Cannon_Loc.009
+    400168: Cannon_Loc.010
+    400170: Cannon_Loc.017
+    400172: Cannon_Loc.018
+    400174: Cannon_Loc.019
+    400176: Cannon_Loc.020
+    400178: Cannon_Loc.021
+    400180: Cannon_Loc.022
+    400182: Cannon_Loc.023
+    400184: Cannon_Loc.024
+    400186: Cannon_Tiponly_Loc.011
+    400188: Cannon_Tiponly_Loc.012
+    400190: Cannon_Tiponly_Loc.013
+    400192: Cannon_Tiponly_Loc.014
+    400194: Cannon_Tiponly_Loc.015
+    400196: Cannon_Tiponly_Loc.016
+    400198: Hull Locators
+    400200: Loose Standing Rigging
+    400202: Masts, Yards & Sails
+    400204: Rudder Pivot
+    400206: Ship Bell_Loc
+    400208: Stern Gallery_Loc
+    400210: Fore Course  Yard
+    400212: Fore Course Pivot
+    400214: Fore Course Sail
+    400216: Fore Main Mast
+    400218: Fore Top Mast
+    400220: Fore Top Shrouds
+    400222: Fore Topgallant Mast
+    400224: Fore Topgallant Pivot
+    400226: Fore Topgallant Sail
+    400228: Fore Topsail Pivot
+    400230: Furled Fore Course Sail
+    400232: Furled Fore Topgallant  Sail
+    400234: Bowsprit
+    400236: Fore Stay
+    400238: Fore Topgallant Stay
+    400240: Fore Topmnast Stay
+    400242: Furled Gaff Sail
+    400244: Furled Main Course Sail
+    400246: Furled Main Top Sail
+    400248: Furled Main Topgallant Sail
+    400250: Gaff
+    400252: Gaff Pivot
+    400254: Main Course Sail
+    400256: Main Course Yard
+    400258: Main Course Yard Pivot
+    400260: Main Royal Stay
+    400262: Main Stay
+    400264: Main Top Mast
+    400266: Main Top Mast Shrouds
+    400268: Main Top Sail
+    400270: Main Top Yard
+    400272: Main Top Yard Pivot
+    400274: Main Topgallant Mast
+    400276: Main Topgallant Sail
+    400278: Main Topgallant Stay
+    400280: Main Topgallant Yard Pivot
+    400282: Main Topmast Stay
+    400284: Mizzen Mast
+    400286: Outer Jib Stay
+    400288: Spritsail Yard Pivot
+    400290: Channel & Knees
+    400292: Deck & Hull Fittings
+    400294: Hull Beam Outside
+    400296: Line_ST1
+    400298: LineB_STYP_ST1
+    400300: LineB_STYS_ST1
+    400302: LineS_STSP
+    400304: LineS_STSS
+    400306: Line_FT1P
+    400308: Line_FT1S
+    400310: LineB_STYP_ST1_FT1P
+    400312: LineB_STYS_ST1_FT1S
+    400314: Line_H1P
+    400316: Line_H1S
+    400318: LineS_STSP_H1P
+    400320: LineS_STSS_H1S
+    400322: LineB_STYP_FT1P
+    400324: LineB_STYS_FT1S
+    400326: LineL_ST1_STYP_STYS
+    400328: LineL_ST2_STYP_STYS
+    400330: LineL_ST3_STYP_STYS
+    400332: Line_H2P
+    400334: Line_H2S
+    400336: Line_H3S
+    400338: Line_H3S.001
+    400340: LineS_SJI_H1S_H1P
+    400342: LineS_SJO_H1S_H1P
+    400344: Line_H3P
+    400346: Line_H4P
+    400348: Line_H4S
+    400350: Line_H5P
+    400352: Line_H5S
+    400354: Line_H6P
+    400356: Line_H6S
+    400358: LineS_STSP_H3P
+    400360: LineS_STSS_H3S
+    400362: LineS_FCSP_H4P_H6P
+    400364: LineS_FCSS_H4S_H6S
+    400366: Line_FS1
+    400368: Line_MT1P
+    400370: Line_MT1S
+    400372: LineB_FCYP_FS1_MT1P
+    400374: LineB_FCYS_FS1_MT1S
+    400376: LineL_FT2_FCYP_FCYS
+    400378: LineL_FT3_FCYP_FCYS
+    400380: Line_8P
+    400382: Line_8S
+    400384: Line_9C_GS
+    400386: Line_FGSP_FTYP
+    400388: Line_FGSS_FTYS
+    400390: Line_FGYP_M2C
+    400392: Line_FGYS_M2C
+    400394: Line_FT4C
+    400396: Line_FT4P
+    400398: Line_FT4S
+    400400: Line_FTSP_FCYP
+    400402: Line_FTSS_FCYS
+    400404: Line_H7P
+    400406: Line_H7S
+    400408: Line_M1
+    400410: Line_M2C
+    400412: Line_MGSP_MTYP
+    400414: Line_MGSS_MTYS
+    400416: Line_MT1C
+    400418: Line_MTSP_MCYP
+    400420: Line_MTSS_MCYS
+    400422: LineB_FCYP_FT4P
+    400424: LineB_FCYS_FT4S
+    400426: LineB_FTYP_M1C
+    400428: LineB_FTYS_M1C
+    400430: LineB_G2_H8S_H8P
+    400432: LineB_MGYP_FT4
+    400434: LineB_MGYS_FT4
+    400436: LineB_MTYP_FT4C
+    400438: LineB_MTYS_FT4C
+    400440: LineL_FT4_FTYP_FTYS
+    400442: LineL_FT5_FGYP_FGYS
+    400444: LineL_M3C_MTYP_MTYS
+    400446: LineL_M4C_MGYS_MGYP
+    400448: LineL_MT2_MCYP_MCYS
+    400450: LineL_MT3_MCYP_MCYS
+    400452: LineS_GS_M1
+    400454: LineS_MCSP_H5P_H7P
+    400456: LineS_MCSS_H5S_H7S
+    400458: LineB_FTYP_MT1C
+    400460: LineB_FTYS_MT1C
+    400462: LineB_MCYP_FT4P
+    400464: LineB_MCYS_FT4S
+    400466: Line_H8P
+    400468: Line_H8S
+    400470: Fore Top Sail
+    400472: Furled Fore Top Sail
+    400474: Fore Topmast Stay
+    400476: Furled Inner Jib Sail
+    400478: Furled Outer Jib Sail
+    400480: Inner Jib Sail
+    400482: Outer Jib Sail
+    400484: Cannon_Bow_01
+    400486: Cannon_Bow_02
+    400488: Cannon_Port_01
+    400490: Cannon_Port_02
+    400492: Cannon_Port_03
+    400494: Cannon_Port_04
+    400496: Cannon_Port_05
+    400498: Cannon_Port_08
+    400500: Cannon_Port_10
+    400502: Cannon_Stbd_01
+    400504: Cannon_Stbd_02
+    400506: Cannon_Stbd_03
+    400508: Cannon_Stbd_04
+    400510: Cannon_Stbd_05
+    400512: Cannon_Stbd_08
+    400514: Cannon_Stbd_10
+    400516: Cannon_Stern_01
+    400518: Cannon_Stern_02
+    400520: CannonTip_Port_06_
+    400522: CannonTip_Port_07
+    400524: CannonTip_Port_09
+    400526: CannonTip_Stbd_06
+    400528: CannonTip_Stbd_07
+    400530: CannonTip_Stbd_09
+    400532: CannonTip_Port_06
+    2300000: _Deck & Hull Fittings_Wood.011
+    2300002: Aft beam Top
+    2300004: Bowsprit Base
+    2300006: Bowsprit Sail
+    2300008: Bowsprit.001
+    2300010: Channel Bow
+    2300012: Channel Knee.005
+    2300014: Fore Lower Yard
+    2300016: Fore Main Sail
+    2300018: Fore Mast
+    2300020: Fore Mast Base
+    2300022: Fore Mast Base 2.017
+    2300024: Fore Mast.003
+    2300026: Fore Mast.004
+    2300028: Fore Mast.005
+    2300030: Fore Royal Sail
+    2300032: Fore Top Galant Sail
+    2300034: Fore Topgallant Yard
+    2300036: Fore Topsail Yard
+    2300038: Furled Bowsprit Sail
+    2300040: Furled Fore Main Sail
+    2300042: Furled Fore Royal Sail
+    2300044: Furled Fore Top Gallant Sail
+    2300046: Furled Gaff
+    2300048: Furled Jib.001
+    2300050: Furled Jib.002
+    2300052: Furled Main Royal Sail
+    2300054: Furled Main Sail
+    2300056: Furled Main Top Gallant Sail
+    2300058: Gaff Sail
+    2300060: Hull
+    2300062: Hull Beam Outside.001
+    2300064: Hull Buoyancy Mesh
+    2300066: Jib 2 Sail
+    2300068: Jib Sail 1
+    2300070: Main Lower Yard
+    2300072: Main Main Sail
+    2300074: Main Mast
+    2300076: Main Mast Base
+    2300078: Main Mast.003
+    2300080: Main Mast.004
+    2300082: Main Mast.006
+    2300084: Main Royal Sail
+    2300086: Main Top Galant Sail
+    2300088: Main Topgallant Yard
+    2300090: Main Topsail Yard
+    2300092: Mast bracket
+    2300094: Pivot Joint.000
+    2300096: Pivot Joint.002
+    2300098: Pivot Joint.009
+    2300100: Pivot Joint.010
+    2300102: Pivot Joint.012
+    2300104: Pivot Joint.014
+    2300106: Pivot Joint.016
+    2300108: Pivot Joint.017
+    2300110: Rudder
+    2300112: Spritsail Yard
+    2300114: Standing Rigging
+    2300116: Standing Rigging Plank
+    2300118: Standing Rigging Plank.001
+    2300120: Standing Rigging.001
+    2300122: Standing Rigging.002
+    2300124: Standing Rigging.014
+    2300126: Standing Rigging.015
+    2300128: Standing Rigging.016
+    2300130: Standing_Rigging_Fore Mast Stays.001
+    2300132: Standing_Rigging_Main Mast Stays.001
+    2300134: Standing_Rigging_Main Mast.001
+    2300136: Stern Gallery
+    2300138: Stern Gallery Windows
+    2300140: Stern Gallery Windows.001
+    2300142: Stern Gallery Windows.002
+    2300144: Fore Course  Yard
+    2300146: Fore Course Pivot
+    2300148: Fore Course Sail
+    2300150: Fore Main Mast
+    2300152: Fore Top Mast
+    2300154: Fore Top Shrouds
+    2300156: Fore Topgallant Mast
+    2300158: Fore Topgallant Pivot
+    2300160: Fore Topgallant Sail
+    2300162: Fore Topsail Pivot
+    2300164: Furled Fore Course Sail
+    2300166: Furled Fore Topgallant  Sail
+    2300168: Bowsprit
+    2300170: Fore Stay
+    2300172: Fore Topgallant Stay
+    2300174: Fore Topmnast Stay
+    2300176: Furled Gaff Sail
+    2300178: Furled Main Course Sail
+    2300180: Furled Main Top Sail
+    2300182: Furled Main Topgallant Sail
+    2300184: Gaff
+    2300186: Gaff Pivot
+    2300188: Main Course Sail
+    2300190: Main Course Yard
+    2300192: Main Course Yard Pivot
+    2300194: Main Royal Stay
+    2300196: Main Stay
+    2300198: Main Top Mast
+    2300200: Main Top Mast Shrouds
+    2300202: Main Top Sail
+    2300204: Main Top Yard
+    2300206: Main Top Yard Pivot
+    2300208: Main Topgallant Mast
+    2300210: Main Topgallant Sail
+    2300212: Main Topgallant Stay
+    2300214: Main Topgallant Yard Pivot
+    2300216: Main Topmast Stay
+    2300218: Mizzen Mast
+    2300220: Outer Jib Stay
+    2300222: Spritsail Yard Pivot
+    2300224: Channel & Knees
+    2300226: Deck & Hull Fittings
+    2300228: Hull Beam Outside
+    2300230: Fore Top Sail
+    2300232: Furled Fore Top Sail
+    2300234: Fore Topmast Stay
+    2300236: Furled Inner Jib Sail
+    2300238: Furled Outer Jib Sail
+    2300240: Inner Jib Sail
+    2300242: Outer Jib Sail
+    3300000: _Deck & Hull Fittings_Wood.011
+    3300002: Aft beam Top
+    3300004: Bowsprit Base
+    3300006: Bowsprit Sail
+    3300008: Bowsprit.001
+    3300010: Channel Bow
+    3300012: Channel Knee.005
+    3300014: Fore Lower Yard
+    3300016: Fore Main Sail
+    3300018: Fore Mast
+    3300020: Fore Mast Base
+    3300022: Fore Mast Base 2.017
+    3300024: Fore Mast.003
+    3300026: Fore Mast.004
+    3300028: Fore Mast.005
+    3300030: Fore Royal Sail
+    3300032: Fore Top Galant Sail
+    3300034: Fore Topgallant Yard
+    3300036: Fore Topsail Yard
+    3300038: Furled Bowsprit Sail
+    3300040: Furled Fore Main Sail
+    3300042: Furled Fore Royal Sail
+    3300044: Furled Fore Top Gallant Sail
+    3300046: Furled Gaff
+    3300048: Furled Jib.001
+    3300050: Furled Jib.002
+    3300052: Furled Main Royal Sail
+    3300054: Furled Main Sail
+    3300056: Furled Main Top Gallant Sail
+    3300058: Gaff Sail
+    3300060: Hull
+    3300062: Hull Beam Outside.001
+    3300064: Hull Buoyancy Mesh
+    3300066: Jib 2 Sail
+    3300068: Jib Sail 1
+    3300070: Main Lower Yard
+    3300072: Main Main Sail
+    3300074: Main Mast
+    3300076: Main Mast Base
+    3300078: Main Mast.003
+    3300080: Main Mast.004
+    3300082: Main Mast.006
+    3300084: Main Royal Sail
+    3300086: Main Top Galant Sail
+    3300088: Main Topgallant Yard
+    3300090: Main Topsail Yard
+    3300092: Mast bracket
+    3300094: Pivot Joint.000
+    3300096: Pivot Joint.002
+    3300098: Pivot Joint.009
+    3300100: Pivot Joint.010
+    3300102: Pivot Joint.012
+    3300104: Pivot Joint.014
+    3300106: Pivot Joint.016
+    3300108: Pivot Joint.017
+    3300110: Rudder
+    3300112: Spritsail Yard
+    3300114: Standing Rigging
+    3300116: Standing Rigging Plank
+    3300118: Standing Rigging Plank.001
+    3300120: Standing Rigging.001
+    3300122: Standing Rigging.002
+    3300124: Standing Rigging.014
+    3300126: Standing Rigging.015
+    3300128: Standing Rigging.016
+    3300130: Standing_Rigging_Fore Mast Stays.001
+    3300132: Standing_Rigging_Main Mast Stays.001
+    3300134: Standing_Rigging_Main Mast.001
+    3300136: Stern Gallery
+    3300138: Stern Gallery Windows
+    3300140: Stern Gallery Windows.001
+    3300142: Stern Gallery Windows.002
+    3300144: Fore Course  Yard
+    3300146: Fore Course Pivot
+    3300148: Fore Course Sail
+    3300150: Fore Main Mast
+    3300152: Fore Top Mast
+    3300154: Fore Top Shrouds
+    3300156: Fore Topgallant Mast
+    3300158: Fore Topgallant Pivot
+    3300160: Fore Topgallant Sail
+    3300162: Fore Topsail Pivot
+    3300164: Furled Fore Course Sail
+    3300166: Furled Fore Topgallant  Sail
+    3300168: Bowsprit
+    3300170: Fore Stay
+    3300172: Fore Topgallant Stay
+    3300174: Fore Topmnast Stay
+    3300176: Furled Gaff Sail
+    3300178: Furled Main Course Sail
+    3300180: Furled Main Top Sail
+    3300182: Furled Main Topgallant Sail
+    3300184: Gaff
+    3300186: Gaff Pivot
+    3300188: Main Course Sail
+    3300190: Main Course Yard
+    3300192: Main Course Yard Pivot
+    3300194: Main Royal Stay
+    3300196: Main Stay
+    3300198: Main Top Mast
+    3300200: Main Top Mast Shrouds
+    3300202: Main Top Sail
+    3300204: Main Top Yard
+    3300206: Main Top Yard Pivot
+    3300208: Main Topgallant Mast
+    3300210: Main Topgallant Sail
+    3300212: Main Topgallant Stay
+    3300214: Main Topgallant Yard Pivot
+    3300216: Main Topmast Stay
+    3300218: Mizzen Mast
+    3300220: Outer Jib Stay
+    3300222: Spritsail Yard Pivot
+    3300224: Channel & Knees
+    3300226: Deck & Hull Fittings
+    3300228: Hull Beam Outside
+    3300230: Fore Top Sail
+    3300232: Furled Fore Top Sail
+    3300234: Fore Topmast Stay
+    3300236: Furled Inner Jib Sail
+    3300238: Furled Outer Jib Sail
+    3300240: Inner Jib Sail
+    3300242: Outer Jib Sail
+    4300000: Rudder
+    4300002: Standing_Rigging_Main Mast Stays.001
+    4300004: Standing_Rigging_Fore Mast Stays.001
+    4300006: Standing Rigging.014
+    4300008: Standing Rigging.015
+    4300010: Standing Rigging.016
+    4300012: Standing Rigging.002
+    4300014: Furled Jib.001
+    4300016: Jib Sail 1
+    4300018: Standing Rigging.001
+    4300020: Furled Jib.002
+    4300022: Jib 2 Sail
+    4300024: Standing Rigging
+    4300026: Bowsprit Base
+    4300028: Bowsprit.001
+    4300030: Pivot Joint.000
+    4300032: Spritsail Yard
+    4300034: Furled Bowsprit Sail
+    4300036: Bowsprit Sail
+    4300038: Main Mast Base
+    4300040: Main Mast.006
+    4300042: Standing_Rigging_Main Mast.001
+    4300044: Standing Rigging Plank
+    4300046: Pivot Joint.014
+    4300048: Main Lower Yard
+    4300050: Main Main Sail
+    4300052: Furled Main Sail
+    4300054: Main Mast.004
+    4300056: Main Mast
+    4300058: Main Mast.003
+    4300060: Pivot Joint.017
+    4300062: Main Topgallant Yard
+    4300064: Furled Main Royal Sail
+    4300066: Main Royal Sail
+    4300068: Pivot Joint.016
+    4300070: Main Topsail Yard
+    4300072: Furled Main Top Gallant Sail
+    4300074: Main Top Galant Sail
+    4300076: Mast bracket
+    4300078: Pivot Joint.012
+    4300080: Aft beam Top
+    4300082: Furled Gaff
+    4300084: Gaff Sail
+    4300086: Fore Mast Base
+    4300088: Fore Mast.005
+    4300090: Fore Mast.004
+    4300092: Fore Mast
+    4300094: Fore Mast.003
+    4300096: Pivot Joint.010
+    4300098: Fore Topgallant Yard
+    4300100: Furled Fore Royal Sail
+    4300102: Fore Royal Sail
+    4300104: Pivot Joint.009
+    4300106: Fore Topsail Yard
+    4300108: Furled Fore Top Gallant Sail
+    4300110: Fore Top Galant Sail
+    4300112: Standing Rigging Plank.001
+    4300114: Pivot Joint.002
+    4300116: Fore Lower Yard
+    4300118: Furled Fore Main Sail
+    4300120: Fore Main Sail
+    4300122: Stern Gallery
+    4300124: Stern Gallery Windows.002
+    4300126: Stern Gallery Windows.001
+    4300128: Stern Gallery Windows
+    4300130: Hull
+    4300132: _Deck & Hull Fittings_Wood.011
+    4300134: Channel Knee.005
+    4300136: Channel Bow
+    4300138: Hull Beam Outside.001
+    4300140: Fore Mast Base 2.017
+    4300142: Hull Buoyancy Mesh
+    4300144: Fore Main Mast
+    4300146: Fore Top Mast
+    4300148: Fore Top Shrouds
+    4300150: Fore Topgallant Mast
+    4300152: Fore Topgallant Pivot
+    4300154: Furled Fore Topgallant  Sail
+    4300156: Fore Topgallant Sail
+    4300158: Fore Topsail Pivot
+    4300160: Fore Course Pivot
+    4300162: Fore Course  Yard
+    4300164: Furled Fore Course Sail
+    4300166: Fore Course Sail
+    4300168: Main Stay
+    4300170: Fore Stay
+    4300172: Main Topmast Stay
+    4300174: Main Topgallant Stay
+    4300176: Main Royal Stay
+    4300178: Fore Topmnast Stay
+    4300180: Outer Jib Stay
+    4300182: Fore Topgallant Stay
+    4300184: Bowsprit
+    4300186: Spritsail Yard Pivot
+    4300188: Main Course Yard Pivot
+    4300190: Main Course Yard
+    4300192: Main Course Sail
+    4300194: Furled Main Course Sail
+    4300196: Main Top Mast
+    4300198: Main Top Mast Shrouds
+    4300200: Main Topgallant Mast
+    4300202: Main Topgallant Yard Pivot
+    4300204: Furled Main Topgallant Sail
+    4300206: Main Topgallant Sail
+    4300208: Main Top Yard Pivot
+    4300210: Main Top Yard
+    4300212: Furled Main Top Sail
+    4300214: Main Top Sail
+    4300216: Mizzen Mast
+    4300218: Gaff Pivot
+    4300220: Gaff
+    4300222: Furled Gaff Sail
+    4300224: Deck & Hull Fittings
+    4300226: Channel & Knees
+    4300228: Hull Beam Outside
+    4300230: Furled Fore Top Sail
+    4300232: Fore Top Sail
+    4300234: Fore Topmast Stay
+    4300236: Furled Inner Jib Sail
+    4300238: Inner Jib Sail
+    4300240: Furled Outer Jib Sail
+    4300242: Outer Jib Sail
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 117027
+  packageName: HMS Ontario - 4k PBR Ship
+  packageVersion: 1.1
+  assetPath: Assets/SaltySeaDogs/Models/HMS Ontario/HMS_Ontario.fbx
+  uploadId: 292372
