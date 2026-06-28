@@ -54,7 +54,7 @@ public static class BrigRigSetup
 
         var bowspritRig = GetOrAdd<BowspritRig>(bowspritAnchor.gameObject);
         AssignBowspritMaterials(bowspritRig, sparMaterial, riggingMaterial);
-        bowspritRig.Rebuild();
+        bowspritRig.Rebuild(force: true);
 
         MastsMaterialUtility.AssignMaterials(mastsRoot.transform);
 

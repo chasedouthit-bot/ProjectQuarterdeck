@@ -10,6 +10,10 @@ public class BowspritRig : MonoBehaviour
 {
     private const string RigRootName = "BowspritRig";
 
+    [Header("Generation")]
+    [Tooltip("When enabled, rig geometry is not rebuilt at runtime and child transforms are preserved.")]
+    [SerializeField] private bool lockGeneratedRigging = true;
+
     [Header("Appearance")]
     [SerializeField] private Material sparMaterial;
     [SerializeField] private Material riggingMaterial;
@@ -33,7 +37,7 @@ public class BowspritRig : MonoBehaviour
     {
         EnsureMaterials();
         RefreshExistingMaterials();
-        if (Application.isPlaying)
+        if (Application.isPlaying && !lockGeneratedRigging)
             Rebuild();
     }
 
@@ -44,8 +48,17 @@ public class BowspritRig : MonoBehaviour
     }
 
     [ContextMenu("Rebuild Rig")]
-    public void Rebuild()
+    public void RebuildFromMenu()
     {
+        Rebuild(force: false);
+    }
+
+    /// <param name="force">When true, rebuilds even if Lock Generated Rigging is enabled (editor setup only).</param>
+    public void Rebuild(bool force = false)
+    {
+        if (lockGeneratedRigging && !force)
+            return;
+
         EnsureMaterials();
         EnsureRigRoot();
         ClearRigChildren();

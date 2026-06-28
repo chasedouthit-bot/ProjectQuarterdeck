@@ -15,7 +15,7 @@ namespace Quarterdeck.Editor
 
         const float TerrainSizeMeters = 512f;
         const float MaxTerrainHeight = 55f;
-        const float IslandDistanceFromShip = 750f;
+        const float IslandDistanceFromShip = 500f;
 
         static readonly Color GrassColor = new(0.34f, 0.52f, 0.24f);
         static readonly Color DirtColor = new(0.44f, 0.34f, 0.20f);

@@ -26883,7 +26883,7 @@ Transform:
   m_GameObject: {fileID: 686259233}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 5.889, z: 17.588}
+  m_LocalPosition: {x: 0, y: 6.75, z: 17.588}
   m_LocalScale: {x: 0.12, y: 3.2, z: 0.12}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -36128,6 +36128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5b9f2e34c6e5ab8b0172938475f9d12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BowspritRig
+  lockGeneratedRigging: 1
   sparMaterial: {fileID: 2100000, guid: a1b2c3d4e5f6478990abcdef12345678, type: 2}
   riggingMaterial: {fileID: 2100000, guid: b2c3d4e5f6a74890bcdef12345678901, type: 2}
   sparColor: {r: 0.42, g: 0.3, b: 0.18, a: 1}
