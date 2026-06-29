@@ -74,6 +74,7 @@ public class CannonBattery : MonoBehaviour
         cannon.CurrentState = CannonState.Reloading;
         cannon.ReloadTimer = ReloadDurationSeconds;
         StateChanged?.Invoke();
+        CannonVisualRegistry.TryFireVisual(side, number);
         return true;
     }
 
