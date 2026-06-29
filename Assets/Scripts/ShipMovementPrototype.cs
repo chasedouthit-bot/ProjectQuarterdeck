@@ -39,11 +39,25 @@ public class ShipMovementPrototype : MonoBehaviour
 
     [Header("Debug (Read Only)")]
     [SerializeField] private float currentSpeedKnots;
+    [SerializeField] private float targetSpeedKnots;
     [SerializeField] private float currentHeadingDegrees;
+    [SerializeField] private float targetHeadingDegrees;
 
     // Runtime turn state.
     private float _currentTurnRateDegreesPerSecond;
     private float _targetTurnRateDegreesPerSecond;
+    private bool _followSailOrder;
+    private bool _followOrderedHeading;
+    private SailOrder _activeSailOrder;
+
+    public float CurrentSpeedKnots => currentSpeedKnots;
+    public float TargetSpeedKnots => targetSpeedKnots;
+    public float CurrentHeadingDegrees => currentHeadingDegrees;
+    public float TargetHeadingDegrees => targetHeadingDegrees;
+    public float CurrentTurnRateDegreesPerSecond => _currentTurnRateDegreesPerSecond;
+    public SailOrder ActiveSailOrder => _activeSailOrder;
+    public bool IsFollowingSailOrder => _followSailOrder;
+    public bool IsFollowingOrderedHeading => _followOrderedHeading;
 
     private void Update()
     {
@@ -61,19 +75,33 @@ public class ShipMovementPrototype : MonoBehaviour
     {
         if (IsShipKeyPressed(KeyCode.T))
         {
+            _followSailOrder = false;
             currentSpeedKnots = Mathf.MoveTowards(
                 currentSpeedKnots,
                 maxSpeedKnots,
                 accelerationRate * deltaTime);
+            targetSpeedKnots = maxSpeedKnots;
             return;
         }
 
         if (IsShipKeyPressed(KeyCode.G))
         {
+            _followSailOrder = false;
             currentSpeedKnots = Mathf.MoveTowards(
                 currentSpeedKnots,
                 0f,
                 decelerationRate * deltaTime);
+            targetSpeedKnots = 0f;
+            return;
+        }
+
+        if (_followSailOrder)
+        {
+            float rate = targetSpeedKnots >= currentSpeedKnots ? accelerationRate : decelerationRate;
+            currentSpeedKnots = Mathf.MoveTowards(
+                currentSpeedKnots,
+                targetSpeedKnots,
+                rate * deltaTime);
             return;
         }
 
@@ -90,14 +118,23 @@ public class ShipMovementPrototype : MonoBehaviour
     {
         bool canTurn = currentSpeedKnots > minSpeedToTurnKnots;
 
-        if (canTurn)
+        if (canTurn && IsShipKeyPressed(KeyCode.F))
         {
-            if (IsShipKeyPressed(KeyCode.F))
-                _targetTurnRateDegreesPerSecond = -turnSpeed;
-            else if (IsShipKeyPressed(KeyCode.H))
-                _targetTurnRateDegreesPerSecond = turnSpeed;
-            else
+            _followOrderedHeading = false;
+            _targetTurnRateDegreesPerSecond = -turnSpeed;
+        }
+        else if (canTurn && IsShipKeyPressed(KeyCode.H))
+        {
+            _followOrderedHeading = false;
+            _targetTurnRateDegreesPerSecond = turnSpeed;
+        }
+        else if (canTurn && _followOrderedHeading)
+        {
+            float headingError = Mathf.DeltaAngle(currentHeadingDegrees, targetHeadingDegrees);
+            if (Mathf.Abs(headingError) <= 0.5f)
                 _targetTurnRateDegreesPerSecond = 0f;
+            else
+                _targetTurnRateDegreesPerSecond = Mathf.Sign(headingError) * turnSpeed;
         }
         else
         {
@@ -160,6 +197,34 @@ public class ShipMovementPrototype : MonoBehaviour
     }
 #endif
 
+    /// <summary>
+    /// Applies a captain sail order. Manual T/G input overrides until the next order is issued.
+    /// </summary>
+    public void ApplySailOrder(SailOrder order, float idealSpeedKnots)
+    {
+        _activeSailOrder = order;
+        targetSpeedKnots = Mathf.Max(0f, idealSpeedKnots);
+        _followSailOrder = true;
+    }
+
+    /// <summary>
+    /// Legacy hook for older overlay code. Prefer ApplySailOrder via CaptainCommandManager.
+    /// </summary>
+    public void SetTargetSpeedKnots(float knots)
+    {
+        targetSpeedKnots = Mathf.Max(0f, knots);
+        _followSailOrder = true;
+    }
+
+    /// <summary>
+    /// Sets an ordered heading from the Course / Bearing instrument. Manual F/H input overrides until the next order.
+    /// </summary>
+    public void SetTargetHeading(float headingDegrees)
+    {
+        targetHeadingDegrees = NormalizeHeading(headingDegrees);
+        _followOrderedHeading = true;
+    }
+
     private static float NormalizeHeading(float yawDegrees)
     {
         yawDegrees %= 360f;
@@ -177,7 +242,9 @@ public class ShipMovementPrototype : MonoBehaviour
         GUI.Box(rect, "Ship Movement (TFGH)");
         GUILayout.BeginArea(new Rect(rect.x + 8f, rect.y + 22f, boxWidth - 16f, boxHeight - 28f));
         GUILayout.Label($"Speed: {currentSpeedKnots:F1} kn");
+        GUILayout.Label($"Target: {targetSpeedKnots:F1} kn");
         GUILayout.Label($"Heading: {currentHeadingDegrees:F0}°");
+        GUILayout.Label($"Target Hdg: {targetHeadingDegrees:F0}°");
         GUILayout.Label($"Turn rate: {_currentTurnRateDegreesPerSecond:F1}°/s");
         GUILayout.Label("T ahead  G astern  F/H turn");
         GUILayout.EndArea();
