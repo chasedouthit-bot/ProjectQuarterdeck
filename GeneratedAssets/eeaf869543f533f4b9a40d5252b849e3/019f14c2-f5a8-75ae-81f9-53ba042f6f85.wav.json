@@ -1,0 +1,15 @@
+{
+    "asset": "eeaf869543f533f4b9a40d5252b849e3",
+    "fileName": "019f14c2-f5a8-75ae-81f9-53ba042f6f85.wav",
+    "prompt": "Gentle ocean waves ambiance with soft wind breeze, looping seamless ocean background",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

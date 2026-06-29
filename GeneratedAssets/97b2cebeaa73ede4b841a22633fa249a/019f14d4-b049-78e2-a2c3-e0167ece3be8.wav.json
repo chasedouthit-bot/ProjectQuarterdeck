@@ -1,0 +1,15 @@
+{
+    "asset": "97b2cebeaa73ede4b841a22633fa249a",
+    "fileName": "019f14d4-b049-78e2-a2c3-e0167ece3be8.wav",
+    "prompt": "Jolly sailors choir singing a traditional pirate sea shanty, accordion background melody, rhythmic chanting and clapping, looping",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

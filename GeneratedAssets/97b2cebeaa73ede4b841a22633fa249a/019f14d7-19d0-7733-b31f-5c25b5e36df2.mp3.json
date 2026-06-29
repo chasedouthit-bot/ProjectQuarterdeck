@@ -1,0 +1,15 @@
+{
+    "asset": "97b2cebeaa73ede4b841a22633fa249a",
+    "fileName": "019f14d7-19d0-7733-b31f-5c25b5e36df2.mp3",
+    "prompt": "18th century authentic sailors sea shanty, group of male crew members singing a rhythmic maritime folk song in unison, a cappella, loopable",
+    "negativePrompt": "",
+    "model": "google-lyria-3-clip",
+    "modelName": "Google Lyria 3 Clip",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 30.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}
